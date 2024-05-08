@@ -1,4 +1,6 @@
-# Goal
+# Hyper-Yggdrasil
+
+> Allow two Yggdrasil nodes to connect via [hyperdht](https://github.com/holepunchto/hyperdht).
 
 ```
 Ygg#1
