@@ -1,6 +1,5 @@
-import net from 'net';
+import net from 'net'
 import DHT from 'hyperdht'
-import b4a from 'b4a'
 import EventEmitter from 'events'
 
 const e = new EventEmitter()
@@ -9,31 +8,25 @@ const keyPair = DHT.keyPair()
 const hyperServer = node.createServer()
 console.log(keyPair.publicKey.toString('hex'))
 
-var netServer = net.createServer(function(netSocket) {
-        netSocket.on('data', function (data) {
-                e.emit('net', data)
-        })
-	e.on('hyper', data => {
-		netSocket.write(data)
-	})
+const netServer = net.createServer(function (netSocket) {
+  netSocket.on('data', function (data) {
+    e.emit('net', data)
+  })
+  e.on('hyper', data => {
+    netSocket.write(data)
+  })
 })
 
 hyperServer.on('connection', function (hyperSocket) {
-	console.log('connected')
-	hyperSocket.on('data', function (data) {
-		e.emit('hyper', data)
-	})
-	e.on('net', data => {
-		hyperSocket.write(data)
-	})
+  console.log('connected')
+  hyperSocket.on('data', function (data) {
+    e.emit('hyper', data)
+  })
+  e.on('net', data => {
+    hyperSocket.write(data)
+  })
 })
 
-hyperServer.on('error', err => {
-	console.log('errrroooorrr')
-})
-
-
-// Yggdrasil verbindet hier
-netServer.listen(3000, '127.0.0.1');
+netServer.listen(3000, '127.0.0.1')
 
 await hyperServer.listen(keyPair)
