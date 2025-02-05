@@ -2,7 +2,7 @@
 
 > Allow two [Yggdrasil](https://yggdrasil-network.github.io/) nodes to connect via [hyperdht](https://github.com/holepunchto/hyperdht).
 
-- Yggdrasil is a research project trying to find a scalable and egalitarian network routing scheme.
+- Yggdrasil is a research project trying to find a scalable and [egalitarian network routing scheme](https://yggdrasil-network.github.io/about.html).
 - Hyper-Yggdrasil tries to add [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)) to the mix by connecting nodes via [Hyperswarm DHT](https://github.com/holepunchto/hyperdht).
 
 This proof of concept works the following way:
@@ -30,7 +30,7 @@ It shows:
 
 ## Related
 
-- About Yggdrasil: https://yggdrasil-network.github.io/
+- Yggdrasil Network main page: https://yggdrasil-network.github.io/
 - Yggdrasil Matrix channel: https://matrix.to/#/#yggdrasil:matrix.org
 - A public node to play around: https://ygg.thingylabs.io/
 - The two main clients:
