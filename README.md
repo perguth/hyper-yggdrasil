@@ -5,6 +5,8 @@
 - Yggdrasil is a research project trying to find a scalable and egalitarian network routing scheme.
 - Hyper-Yggdrasil tries to add [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)) to the mix by connecting nodes via [Hyperswarm DHT](https://github.com/holepunchto/hyperdht).
 
+This proof of concept works the following way:
+
 ```
 01 | Ygg#1
 02 |   -> tcp://localhost ->
