@@ -25,9 +25,11 @@ It shows:
 
 ## Related
 
+- About Yggdrasil: https://yggdrasil-network.github.io/
 - A public node to play around: https://ygg.thingylabs.io/
-- Yggstack: https://github.com/yggdrasil-network/yggstack
-- Yggdrasil: https://github.com/yggdrasil-network/yggdrasil-go
+- The two main clients:
+   - Yggstack: https://github.com/yggdrasil-network/yggstack
+   - Yggdrasil: https://github.com/yggdrasil-network/yggdrasil-go
 - Public peer list: https://github.com/yggdrasil-network/public-peers
 
 ***
