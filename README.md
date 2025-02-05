@@ -3,13 +3,13 @@
 > Allow two [Yggdrasil](https://yggdrasil-network.github.io/) nodes to connect via [hyperdht](https://github.com/holepunchto/hyperdht).
 
 ```
-Ygg#1
-  -> tcp://localhost ->
-    -> NodeJS: ( `net` -> `hyperdht` )
-      -> INTERNET
-        -> NodeJS: ( `hyperdht` -> `net` )
-          -> tcp://localhost
-            -> Ygg#2
+01 | Ygg#1
+02 |   -> tcp://localhost ->
+03 |     -> NodeJS: ( `net` -> `hyperdht` )
+04 |       -> INTERNET
+05 |         -> NodeJS: ( `hyperdht` -> `net` )
+06 |           -> tcp://localhost
+07 |             -> Ygg#2
 ```
 
 ## Screencast
