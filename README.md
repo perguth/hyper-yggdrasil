@@ -12,4 +12,13 @@ Ygg#1
             -> Ygg#2
 ```
 
+## Screencast demonstration
+
 ![Screencast](screencast.gif)
+
+It shows:
+
+1. Two NodeJS scripts are connected via HyperDHT. They also open a local TCP port.
+2. Yggdrasil is started connected to the local HyperDHT server/client via TCP.
+3. IPv6 pings are sent via Yggdrasil.
+4. Encrypted traffic is observed, pings succeed.
