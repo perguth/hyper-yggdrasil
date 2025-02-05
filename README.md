@@ -2,6 +2,8 @@
 
 > Allow two [Yggdrasil](https://yggdrasil-network.github.io/) nodes to connect via [hyperdht](https://github.com/holepunchto/hyperdht).
 
+Idea kicked off at [Hackergarten Stuttgart](https://www.meetup.com/de-DE/hackergarten-stuttgart/).
+
 ```
 Ygg#1
   -> tcp://localhost ->
