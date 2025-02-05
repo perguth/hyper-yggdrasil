@@ -22,3 +22,10 @@ It shows:
 2. Yggdrasil is started connected to the local HyperDHT server/client via TCP.
 3. IPv6 pings are sent via Yggdrasil.
 4. Encrypted traffic is observed, pings succeed.
+
+## Related
+
+- A public node to play around: https://ygg.thingylabs.io/
+- Yggstack: https://github.com/yggdrasil-network/yggstack
+- Yggdrasil: https://github.com/yggdrasil-network/yggdrasil-go
+- Public peer list: https://github.com/yggdrasil-network/public-peers
