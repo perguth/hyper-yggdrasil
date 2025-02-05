@@ -12,7 +12,7 @@ Ygg#1
             -> Ygg#2
 ```
 
-## Screencast demonstration
+## Screencast
 
 ![Screencast](screencast.gif)
 
