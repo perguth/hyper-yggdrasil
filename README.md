@@ -34,8 +34,8 @@ It shows:
 - Yggdrasil Matrix channel: https://matrix.to/#/#yggdrasil:matrix.org
 - A public node to play around: https://ygg.thingylabs.io/
 - The two main clients:
-   - Yggstack (Netstack client): https://github.com/yggdrasil-network/yggstack
-   - Yggdrasil (Server daemon): https://github.com/yggdrasil-network/yggdrasil-go
+   - Yggstack (netstack client): https://github.com/yggdrasil-network/yggstack
+   - Yggdrasil (server daemon): https://github.com/yggdrasil-network/yggdrasil-go
    - Yggdrasil-JS (wip): https://github.com/Saiv46/yggdrasil-js
 - Public peer list: https://github.com/yggdrasil-network/public-peers
 
