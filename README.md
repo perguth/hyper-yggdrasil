@@ -41,4 +41,4 @@ It shows:
 - Public peer list: https://github.com/yggdrasil-network/public-peers
 
 ***
-👋 Idea kicked off at [Hackergarten Stuttgart](https://www.meetup.com/de-DE/hackergarten-stuttgart/).
+👋 Idea kicked off at [Hackergarten Stuttgart](https://www.meetup.com/de-DE/hackergarten-stuttgart/) ([#Hackergarten](https://github.com/topics/hackergarten)).
