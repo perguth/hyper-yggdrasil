@@ -33,7 +33,7 @@ It shows:
 - Yggdrasil Network main page: https://yggdrasil-network.github.io/
 - Yggdrasil Matrix channel: https://matrix.to/#/#yggdrasil:matrix.org
 - A ChromeOS/Linux setup convenience script: https://github.com/perguth/yggdrasil-chromeos
-- A public node to play around: https://ygg.thingylabs.io/
+- A public node to play around with: https://ygg.thingylabs.io/
 - The two main clients:
    - Yggstack (netstack client): https://github.com/yggdrasil-network/yggstack
    - Yggdrasil (server daemon): https://github.com/yggdrasil-network/yggdrasil-go
