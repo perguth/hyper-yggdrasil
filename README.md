@@ -18,7 +18,7 @@
 
 It shows:
 
-1. Two NodeJS scripts are connected via HyperDHT. They also open a local TCP port.
+1. Two NodeJS scripts are connected via HyperDHT. They also open a local TCP ports.
 2. Yggdrasil is started connected to the local HyperDHT server/client via TCP.
 3. IPv6 pings are sent via Yggdrasil.
 4. Encrypted traffic is observed, pings succeed.
