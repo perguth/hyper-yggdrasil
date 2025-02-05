@@ -30,6 +30,7 @@ It shows:
 - The two main clients:
    - Yggstack: https://github.com/yggdrasil-network/yggstack
    - Yggdrasil: https://github.com/yggdrasil-network/yggdrasil-go
+   - Yggdrasil-JS (wip): https://github.com/Saiv46/yggdrasil-js
 - Public peer list: https://github.com/yggdrasil-network/public-peers
 
 ***
