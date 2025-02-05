@@ -26,6 +26,7 @@ It shows:
 ## Related
 
 - About Yggdrasil: https://yggdrasil-network.github.io/
+- Yggdrasil Matrix Channel: https://matrix.to/#/#yggdrasil:matrix.org
 - A public node to play around: https://ygg.thingylabs.io/
 - The two main clients:
    - Yggstack (Netstack client): https://github.com/yggdrasil-network/yggstack
