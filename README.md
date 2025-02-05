@@ -10,9 +10,9 @@ This proof of concept works the following way:
 ```
 01 | Yggdrasil instance no. 1
 02 |   🡲 tcp://localhost-1
-03 |     🡲 NodeJS: `net` ⇢ `hyperdht`
+03 |     🡲 NodeJS: `net` ⇿ `hyperdht`
 04 |       🡲 INTERNET
-05 |         🡰 NodeJS: `hyperdht` ⇢ `net`
+05 |         🡰 NodeJS: `hyperdht` ⇿ `net`
 06 |           🡰 tcp://localhost-2
 07 |             🡰 Yggdrasil instance no. 2
 ```
